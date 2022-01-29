@@ -21,6 +21,7 @@ public class Question15 {
 		
 		List<Integer> results = new ArrayList<>();
 		
+		// scan entire integer list and see if the string map has an integer value as string
 		for(int i : integerList) {
 			if(!(stringMap.containsValue(String.valueOf(i)))) {
 				results.add(i);
