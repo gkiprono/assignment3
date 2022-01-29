@@ -26,6 +26,8 @@ public class Question15 {
 				results.add(i);
 			}
 		}
+		
+		System.out.println(results.toString());
 	}
 
 }
